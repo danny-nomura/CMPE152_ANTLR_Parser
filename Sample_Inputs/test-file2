@@ -1,0 +1,8 @@
+{ 
+    int x; int y; float z;
+    x = 3; y = 70; z = 100;
+    while(y<=z){
+        y = y + x;
+        z = z - x;
+    }
+}

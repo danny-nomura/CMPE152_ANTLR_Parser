@@ -1,0 +1,12 @@
+{
+	int var; int k; bool test;
+	for(var=10;test==true;var++){
+	    if(var<=20){
+	        k = k + 20;
+	    }
+	    else{
+	        k = 0;
+	        test=false;
+	    }
+	}
+}
