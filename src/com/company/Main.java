@@ -1,19 +1,8 @@
 package com.company;
-/*
-public class Main {
-
-    public static void main(String[] args) {
-        // write your code here
-        System.out.println("Hello CMPE 152");
-    }
-}
-*/
-
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTreeWalker;
 import org.antlr.v4.runtime.tree.*;
-
 
 public class Main {
     public static void main(String[] args) {
@@ -29,7 +18,6 @@ public class Main {
         ));
         MyGrammarParser parse = new MyGrammarParser(new CommonTokenStream(lex));
         MyGrammarParser.ProgramContext myTree = parse.program();
-
 
         // Walking the tree with listener
         ParseTreeWalker myWalker = new ParseTreeWalker();
