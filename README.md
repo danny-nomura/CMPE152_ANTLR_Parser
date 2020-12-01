@@ -20,12 +20,12 @@ Ensure you have enabled ANTLR plug-in for Intellij (4.8 was used for implementat
 ## Notes
 Important files can be found as follows
 
-ANTLR v4 grammar file         - Listed as MyGrammar.g4 in `CMPE152_Parser/src/com.company`
-Railroad diagrams             - Found as MyGrammar.rrd.html in `CMPE152_Parser`
-generated parser code         - Found as MyGrammarParser.java and MyGrammarLexer.java in `CMPE152_Parser/src/com.company`
-Main driver code              - Found as Main.java in `CMPE152_Parser/src/com.company`
-Listener code                 - Found as TopListener.java in `CMPE152_Parser/src/com.company`
-Visitor code                  - Found as TopVisitor.java in `CMPE152_Parser/src/com.company`
-Example input source programs - Found in CMPE152_Parser/Sample_Inputs
-Source program's parse trees  - Found in CMPE152_Parser/Parse_Trees
-listener and visitor output   - Found in CMPE152_Parser/Visitor_Listener_Outputs
+-ANTLR v4 grammar file         - Listed as MyGrammar.g4 in `CMPE152_Parser/src/com.company`
+-Railroad diagrams             - Found as MyGrammar.rrd.html in `CMPE152_Parser`
+-generated parser code         - Found as MyGrammarParser.java and MyGrammarLexer.java in `CMPE152_Parser/src/com.company`
+-Main driver code              - Found as Main.java in `CMPE152_Parser/src/com.company`
+-Listener code                 - Found as TopListener.java in `CMPE152_Parser/src/com.company`
+-Visitor code                  - Found as TopVisitor.java in `CMPE152_Parser/src/com.company`
+-Example input source programs - Found in CMPE152_Parser/Sample_Inputs
+-Source program's parse trees  - Found in CMPE152_Parser/Parse_Trees
+-listener and visitor output   - Found in CMPE152_Parser/Visitor_Listener_Outputs
