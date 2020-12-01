@@ -1,0 +1,469 @@
+Entered EVERY RULE --- {intx;inty;floatz;x=3;y=70;z=100;while(y<=z){y=y+x;z=z-x;}}
+Entered PROGRAM --- {intx;inty;floatz;x=3;y=70;z=100;while(y<=z){y=y+x;z=z-x;}}
+Entered EVERY RULE --- {intx;inty;floatz;x=3;y=70;z=100;while(y<=z){y=y+x;z=z-x;}}
+Entered BLOCK --- {intx;inty;floatz;x=3;y=70;z=100;while(y<=z){y=y+x;z=z-x;}}
+Visited TERMINAL --- {
+Entered EVERY RULE --- 
+Entered DECLS --- 
+Exited DECLS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- intx;inty;floatz;x=3;y=70;z=100;while(y<=z){y=y+x;z=z-x;}
+Entered STMTS --- intx;inty;floatz;x=3;y=70;z=100;while(y<=z){y=y+x;z=z-x;}
+Entered EVERY RULE --- intx;inty;floatz;x=3;y=70;z=100;
+Entered STMTS --- intx;inty;floatz;x=3;y=70;z=100;
+Entered EVERY RULE --- intx;inty;floatz;x=3;y=70;
+Entered STMTS --- intx;inty;floatz;x=3;y=70;
+Entered EVERY RULE --- intx;inty;floatz;x=3;
+Entered STMTS --- intx;inty;floatz;x=3;
+Entered EVERY RULE --- intx;inty;floatz;
+Entered STMTS --- intx;inty;floatz;
+Entered EVERY RULE --- intx;inty;
+Entered STMTS --- intx;inty;
+Entered EVERY RULE --- intx;
+Entered STMTS --- intx;
+Entered EVERY RULE --- 
+Entered STMTS --- 
+Exited STMTS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- intx;
+Entered STMT --- intx;
+Entered EVERY RULE --- intx;
+Entered ASSIGN --- intx;
+Visited TERMINAL --- int
+Entered EVERY RULE --- x
+Entered ALLEXPR --- x
+Entered EVERY RULE --- x
+Entered ANDEXPR --- x
+Entered EVERY RULE --- x
+Entered EQUAL --- x
+Entered EVERY RULE --- x
+Entered REL --- x
+Entered EVERY RULE --- x
+Entered EXPR --- x
+Entered EVERY RULE --- x
+Entered TERM --- x
+Entered EVERY RULE --- x
+Entered FACTOR --- x
+Visited TERMINAL --- x
+Exited FACTOR --- x
+Exited EVERY RULE --- x
+Exited TERM --- x
+Exited EVERY RULE --- x
+Exited EXPR --- x
+Exited EVERY RULE --- x
+Exited REL --- x
+Exited EVERY RULE --- x
+Exited EQUAL --- x
+Exited EVERY RULE --- x
+Exited ANDEXPR --- x
+Exited EVERY RULE --- x
+Exited ALLEXPR --- x
+Exited EVERY RULE --- x
+Visited TERMINAL --- ;
+Exited ASSIGN --- intx;
+Exited EVERY RULE --- intx;
+Exited STMT --- intx;
+Exited EVERY RULE --- intx;
+Exited STMTS --- intx;
+Exited EVERY RULE --- intx;
+Entered EVERY RULE --- inty;
+Entered STMT --- inty;
+Entered EVERY RULE --- inty;
+Entered ASSIGN --- inty;
+Visited TERMINAL --- int
+Entered EVERY RULE --- y
+Entered ALLEXPR --- y
+Entered EVERY RULE --- y
+Entered ANDEXPR --- y
+Entered EVERY RULE --- y
+Entered EQUAL --- y
+Entered EVERY RULE --- y
+Entered REL --- y
+Entered EVERY RULE --- y
+Entered EXPR --- y
+Entered EVERY RULE --- y
+Entered TERM --- y
+Entered EVERY RULE --- y
+Entered FACTOR --- y
+Visited TERMINAL --- y
+Exited FACTOR --- y
+Exited EVERY RULE --- y
+Exited TERM --- y
+Exited EVERY RULE --- y
+Exited EXPR --- y
+Exited EVERY RULE --- y
+Exited REL --- y
+Exited EVERY RULE --- y
+Exited EQUAL --- y
+Exited EVERY RULE --- y
+Exited ANDEXPR --- y
+Exited EVERY RULE --- y
+Exited ALLEXPR --- y
+Exited EVERY RULE --- y
+Visited TERMINAL --- ;
+Exited ASSIGN --- inty;
+Exited EVERY RULE --- inty;
+Exited STMT --- inty;
+Exited EVERY RULE --- inty;
+Exited STMTS --- intx;inty;
+Exited EVERY RULE --- intx;inty;
+Entered EVERY RULE --- floatz;
+Entered STMT --- floatz;
+Entered EVERY RULE --- floatz;
+Entered ASSIGN --- floatz;
+Visited TERMINAL --- float
+Entered EVERY RULE --- z
+Entered ALLEXPR --- z
+Entered EVERY RULE --- z
+Entered ANDEXPR --- z
+Entered EVERY RULE --- z
+Entered EQUAL --- z
+Entered EVERY RULE --- z
+Entered REL --- z
+Entered EVERY RULE --- z
+Entered EXPR --- z
+Entered EVERY RULE --- z
+Entered TERM --- z
+Entered EVERY RULE --- z
+Entered FACTOR --- z
+Visited TERMINAL --- z
+Exited FACTOR --- z
+Exited EVERY RULE --- z
+Exited TERM --- z
+Exited EVERY RULE --- z
+Exited EXPR --- z
+Exited EVERY RULE --- z
+Exited REL --- z
+Exited EVERY RULE --- z
+Exited EQUAL --- z
+Exited EVERY RULE --- z
+Exited ANDEXPR --- z
+Exited EVERY RULE --- z
+Exited ALLEXPR --- z
+Exited EVERY RULE --- z
+Visited TERMINAL --- ;
+Exited ASSIGN --- floatz;
+Exited EVERY RULE --- floatz;
+Exited STMT --- floatz;
+Exited EVERY RULE --- floatz;
+Exited STMTS --- intx;inty;floatz;
+Exited EVERY RULE --- intx;inty;floatz;
+Entered EVERY RULE --- x=3;
+Entered STMT --- x=3;
+Entered EVERY RULE --- x=3;
+Entered ASSIGN --- x=3;
+Visited TERMINAL --- x
+Visited TERMINAL --- =
+Entered EVERY RULE --- 3
+Entered ALLEXPR --- 3
+Entered EVERY RULE --- 3
+Entered ANDEXPR --- 3
+Entered EVERY RULE --- 3
+Entered EQUAL --- 3
+Entered EVERY RULE --- 3
+Entered REL --- 3
+Entered EVERY RULE --- 3
+Entered EXPR --- 3
+Entered EVERY RULE --- 3
+Entered TERM --- 3
+Entered EVERY RULE --- 3
+Entered FACTOR --- 3
+Visited TERMINAL --- 3
+Exited FACTOR --- 3
+Exited EVERY RULE --- 3
+Exited TERM --- 3
+Exited EVERY RULE --- 3
+Exited EXPR --- 3
+Exited EVERY RULE --- 3
+Exited REL --- 3
+Exited EVERY RULE --- 3
+Exited EQUAL --- 3
+Exited EVERY RULE --- 3
+Exited ANDEXPR --- 3
+Exited EVERY RULE --- 3
+Exited ALLEXPR --- 3
+Exited EVERY RULE --- 3
+Visited TERMINAL --- ;
+Exited ASSIGN --- x=3;
+Exited EVERY RULE --- x=3;
+Exited STMT --- x=3;
+Exited EVERY RULE --- x=3;
+Exited STMTS --- intx;inty;floatz;x=3;
+Exited EVERY RULE --- intx;inty;floatz;x=3;
+Entered EVERY RULE --- y=70;
+Entered STMT --- y=70;
+Entered EVERY RULE --- y=70;
+Entered ASSIGN --- y=70;
+Visited TERMINAL --- y
+Visited TERMINAL --- =
+Entered EVERY RULE --- 70
+Entered ALLEXPR --- 70
+Entered EVERY RULE --- 70
+Entered ANDEXPR --- 70
+Entered EVERY RULE --- 70
+Entered EQUAL --- 70
+Entered EVERY RULE --- 70
+Entered REL --- 70
+Entered EVERY RULE --- 70
+Entered EXPR --- 70
+Entered EVERY RULE --- 70
+Entered TERM --- 70
+Entered EVERY RULE --- 70
+Entered FACTOR --- 70
+Visited TERMINAL --- 70
+Exited FACTOR --- 70
+Exited EVERY RULE --- 70
+Exited TERM --- 70
+Exited EVERY RULE --- 70
+Exited EXPR --- 70
+Exited EVERY RULE --- 70
+Exited REL --- 70
+Exited EVERY RULE --- 70
+Exited EQUAL --- 70
+Exited EVERY RULE --- 70
+Exited ANDEXPR --- 70
+Exited EVERY RULE --- 70
+Exited ALLEXPR --- 70
+Exited EVERY RULE --- 70
+Visited TERMINAL --- ;
+Exited ASSIGN --- y=70;
+Exited EVERY RULE --- y=70;
+Exited STMT --- y=70;
+Exited EVERY RULE --- y=70;
+Exited STMTS --- intx;inty;floatz;x=3;y=70;
+Exited EVERY RULE --- intx;inty;floatz;x=3;y=70;
+Entered EVERY RULE --- z=100;
+Entered STMT --- z=100;
+Entered EVERY RULE --- z=100;
+Entered ASSIGN --- z=100;
+Visited TERMINAL --- z
+Visited TERMINAL --- =
+Entered EVERY RULE --- 100
+Entered ALLEXPR --- 100
+Entered EVERY RULE --- 100
+Entered ANDEXPR --- 100
+Entered EVERY RULE --- 100
+Entered EQUAL --- 100
+Entered EVERY RULE --- 100
+Entered REL --- 100
+Entered EVERY RULE --- 100
+Entered EXPR --- 100
+Entered EVERY RULE --- 100
+Entered TERM --- 100
+Entered EVERY RULE --- 100
+Entered FACTOR --- 100
+Visited TERMINAL --- 100
+Exited FACTOR --- 100
+Exited EVERY RULE --- 100
+Exited TERM --- 100
+Exited EVERY RULE --- 100
+Exited EXPR --- 100
+Exited EVERY RULE --- 100
+Exited REL --- 100
+Exited EVERY RULE --- 100
+Exited EQUAL --- 100
+Exited EVERY RULE --- 100
+Exited ANDEXPR --- 100
+Exited EVERY RULE --- 100
+Exited ALLEXPR --- 100
+Exited EVERY RULE --- 100
+Visited TERMINAL --- ;
+Exited ASSIGN --- z=100;
+Exited EVERY RULE --- z=100;
+Exited STMT --- z=100;
+Exited EVERY RULE --- z=100;
+Exited STMTS --- intx;inty;floatz;x=3;y=70;z=100;
+Exited EVERY RULE --- intx;inty;floatz;x=3;y=70;z=100;
+Entered EVERY RULE --- while(y<=z){y=y+x;z=z-x;}
+Entered STMT --- while(y<=z){y=y+x;z=z-x;}
+Visited TERMINAL --- while
+Visited TERMINAL --- (
+Entered EVERY RULE --- y<=z
+Entered ALLEXPR --- y<=z
+Entered EVERY RULE --- y<=z
+Entered ANDEXPR --- y<=z
+Entered EVERY RULE --- y<=z
+Entered EQUAL --- y<=z
+Entered EVERY RULE --- y<=z
+Entered REL --- y<=z
+Entered EVERY RULE --- y
+Entered EXPR --- y
+Entered EVERY RULE --- y
+Entered TERM --- y
+Entered EVERY RULE --- y
+Entered FACTOR --- y
+Visited TERMINAL --- y
+Exited FACTOR --- y
+Exited EVERY RULE --- y
+Exited TERM --- y
+Exited EVERY RULE --- y
+Exited EXPR --- y
+Exited EVERY RULE --- y
+Visited TERMINAL --- <=
+Entered EVERY RULE --- z
+Entered EXPR --- z
+Entered EVERY RULE --- z
+Entered TERM --- z
+Entered EVERY RULE --- z
+Entered FACTOR --- z
+Visited TERMINAL --- z
+Exited FACTOR --- z
+Exited EVERY RULE --- z
+Exited TERM --- z
+Exited EVERY RULE --- z
+Exited EXPR --- z
+Exited EVERY RULE --- z
+Exited REL --- y<=z
+Exited EVERY RULE --- y<=z
+Exited EQUAL --- y<=z
+Exited EVERY RULE --- y<=z
+Exited ANDEXPR --- y<=z
+Exited EVERY RULE --- y<=z
+Exited ALLEXPR --- y<=z
+Exited EVERY RULE --- y<=z
+Visited TERMINAL --- )
+Entered EVERY RULE --- {y=y+x;z=z-x;}
+Entered STMT --- {y=y+x;z=z-x;}
+Entered EVERY RULE --- {y=y+x;z=z-x;}
+Entered BLOCK --- {y=y+x;z=z-x;}
+Visited TERMINAL --- {
+Entered EVERY RULE --- 
+Entered DECLS --- 
+Exited DECLS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- y=y+x;z=z-x;
+Entered STMTS --- y=y+x;z=z-x;
+Entered EVERY RULE --- y=y+x;
+Entered STMTS --- y=y+x;
+Entered EVERY RULE --- 
+Entered STMTS --- 
+Exited STMTS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- y=y+x;
+Entered STMT --- y=y+x;
+Entered EVERY RULE --- y=y+x;
+Entered ASSIGN --- y=y+x;
+Visited TERMINAL --- y
+Visited TERMINAL --- =
+Entered EVERY RULE --- y+x
+Entered ALLEXPR --- y+x
+Entered EVERY RULE --- y+x
+Entered ANDEXPR --- y+x
+Entered EVERY RULE --- y+x
+Entered EQUAL --- y+x
+Entered EVERY RULE --- y+x
+Entered REL --- y+x
+Entered EVERY RULE --- y+x
+Entered EXPR --- y+x
+Entered EVERY RULE --- y
+Entered EXPR --- y
+Entered EVERY RULE --- y
+Entered TERM --- y
+Entered EVERY RULE --- y
+Entered FACTOR --- y
+Visited TERMINAL --- y
+Exited FACTOR --- y
+Exited EVERY RULE --- y
+Exited TERM --- y
+Exited EVERY RULE --- y
+Exited EXPR --- y
+Exited EVERY RULE --- y
+Visited TERMINAL --- +
+Entered EVERY RULE --- x
+Entered TERM --- x
+Entered EVERY RULE --- x
+Entered FACTOR --- x
+Visited TERMINAL --- x
+Exited FACTOR --- x
+Exited EVERY RULE --- x
+Exited TERM --- x
+Exited EVERY RULE --- x
+Exited EXPR --- y+x
+Exited EVERY RULE --- y+x
+Exited REL --- y+x
+Exited EVERY RULE --- y+x
+Exited EQUAL --- y+x
+Exited EVERY RULE --- y+x
+Exited ANDEXPR --- y+x
+Exited EVERY RULE --- y+x
+Exited ALLEXPR --- y+x
+Exited EVERY RULE --- y+x
+Visited TERMINAL --- ;
+Exited ASSIGN --- y=y+x;
+Exited EVERY RULE --- y=y+x;
+Exited STMT --- y=y+x;
+Exited EVERY RULE --- y=y+x;
+Exited STMTS --- y=y+x;
+Exited EVERY RULE --- y=y+x;
+Entered EVERY RULE --- z=z-x;
+Entered STMT --- z=z-x;
+Entered EVERY RULE --- z=z-x;
+Entered ASSIGN --- z=z-x;
+Visited TERMINAL --- z
+Visited TERMINAL --- =
+Entered EVERY RULE --- z-x
+Entered ALLEXPR --- z-x
+Entered EVERY RULE --- z-x
+Entered ANDEXPR --- z-x
+Entered EVERY RULE --- z-x
+Entered EQUAL --- z-x
+Entered EVERY RULE --- z-x
+Entered REL --- z-x
+Entered EVERY RULE --- z-x
+Entered EXPR --- z-x
+Entered EVERY RULE --- z
+Entered EXPR --- z
+Entered EVERY RULE --- z
+Entered TERM --- z
+Entered EVERY RULE --- z
+Entered FACTOR --- z
+Visited TERMINAL --- z
+Exited FACTOR --- z
+Exited EVERY RULE --- z
+Exited TERM --- z
+Exited EVERY RULE --- z
+Exited EXPR --- z
+Exited EVERY RULE --- z
+Visited TERMINAL --- -
+Entered EVERY RULE --- x
+Entered TERM --- x
+Entered EVERY RULE --- x
+Entered FACTOR --- x
+Visited TERMINAL --- x
+Exited FACTOR --- x
+Exited EVERY RULE --- x
+Exited TERM --- x
+Exited EVERY RULE --- x
+Exited EXPR --- z-x
+Exited EVERY RULE --- z-x
+Exited REL --- z-x
+Exited EVERY RULE --- z-x
+Exited EQUAL --- z-x
+Exited EVERY RULE --- z-x
+Exited ANDEXPR --- z-x
+Exited EVERY RULE --- z-x
+Exited ALLEXPR --- z-x
+Exited EVERY RULE --- z-x
+Visited TERMINAL --- ;
+Exited ASSIGN --- z=z-x;
+Exited EVERY RULE --- z=z-x;
+Exited STMT --- z=z-x;
+Exited EVERY RULE --- z=z-x;
+Exited STMTS --- y=y+x;z=z-x;
+Exited EVERY RULE --- y=y+x;z=z-x;
+Visited TERMINAL --- }
+Exited BLOCK --- {y=y+x;z=z-x;}
+Exited EVERY RULE --- {y=y+x;z=z-x;}
+Exited STMT --- {y=y+x;z=z-x;}
+Exited EVERY RULE --- {y=y+x;z=z-x;}
+Exited STMT --- while(y<=z){y=y+x;z=z-x;}
+Exited EVERY RULE --- while(y<=z){y=y+x;z=z-x;}
+Exited STMTS --- intx;inty;floatz;x=3;y=70;z=100;while(y<=z){y=y+x;z=z-x;}
+Exited EVERY RULE --- intx;inty;floatz;x=3;y=70;z=100;while(y<=z){y=y+x;z=z-x;}
+Visited TERMINAL --- }
+Exited BLOCK --- {intx;inty;floatz;x=3;y=70;z=100;while(y<=z){y=y+x;z=z-x;}}
+Exited EVERY RULE --- {intx;inty;floatz;x=3;y=70;z=100;while(y<=z){y=y+x;z=z-x;}}
+Exited PROGRAM --- {intx;inty;floatz;x=3;y=70;z=100;while(y<=z){y=y+x;z=z-x;}}
+Exited EVERY RULE --- {intx;inty;floatz;x=3;y=70;z=100;while(y<=z){y=y+x;z=z-x;}}
+Tree has been walked by walker
+Listening has concluded ############################################################

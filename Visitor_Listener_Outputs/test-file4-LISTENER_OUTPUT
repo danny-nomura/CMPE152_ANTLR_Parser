@@ -1,0 +1,585 @@
+Entered EVERY RULE --- {intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;lowerLimit=10.99;while(currentCount<10000){upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}}
+Entered PROGRAM --- {intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;lowerLimit=10.99;while(currentCount<10000){upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}}
+Entered EVERY RULE --- {intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;lowerLimit=10.99;while(currentCount<10000){upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}}
+Entered BLOCK --- {intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;lowerLimit=10.99;while(currentCount<10000){upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}}
+Visited TERMINAL --- {
+Entered EVERY RULE --- 
+Entered DECLS --- 
+Exited DECLS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;lowerLimit=10.99;while(currentCount<10000){upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}
+Entered STMTS --- intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;lowerLimit=10.99;while(currentCount<10000){upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}
+Entered EVERY RULE --- intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;lowerLimit=10.99;
+Entered STMTS --- intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;lowerLimit=10.99;
+Entered EVERY RULE --- intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;
+Entered STMTS --- intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;
+Entered EVERY RULE --- intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;
+Entered STMTS --- intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;
+Entered EVERY RULE --- intcurrentCount;floatupperLimit;floatlowerLimit;
+Entered STMTS --- intcurrentCount;floatupperLimit;floatlowerLimit;
+Entered EVERY RULE --- intcurrentCount;floatupperLimit;
+Entered STMTS --- intcurrentCount;floatupperLimit;
+Entered EVERY RULE --- intcurrentCount;
+Entered STMTS --- intcurrentCount;
+Entered EVERY RULE --- 
+Entered STMTS --- 
+Exited STMTS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- intcurrentCount;
+Entered STMT --- intcurrentCount;
+Entered EVERY RULE --- intcurrentCount;
+Entered ASSIGN --- intcurrentCount;
+Visited TERMINAL --- int
+Entered EVERY RULE --- currentCount
+Entered ALLEXPR --- currentCount
+Entered EVERY RULE --- currentCount
+Entered ANDEXPR --- currentCount
+Entered EVERY RULE --- currentCount
+Entered EQUAL --- currentCount
+Entered EVERY RULE --- currentCount
+Entered REL --- currentCount
+Entered EVERY RULE --- currentCount
+Entered EXPR --- currentCount
+Entered EVERY RULE --- currentCount
+Entered TERM --- currentCount
+Entered EVERY RULE --- currentCount
+Entered FACTOR --- currentCount
+Visited TERMINAL --- currentCount
+Exited FACTOR --- currentCount
+Exited EVERY RULE --- currentCount
+Exited TERM --- currentCount
+Exited EVERY RULE --- currentCount
+Exited EXPR --- currentCount
+Exited EVERY RULE --- currentCount
+Exited REL --- currentCount
+Exited EVERY RULE --- currentCount
+Exited EQUAL --- currentCount
+Exited EVERY RULE --- currentCount
+Exited ANDEXPR --- currentCount
+Exited EVERY RULE --- currentCount
+Exited ALLEXPR --- currentCount
+Exited EVERY RULE --- currentCount
+Visited TERMINAL --- ;
+Exited ASSIGN --- intcurrentCount;
+Exited EVERY RULE --- intcurrentCount;
+Exited STMT --- intcurrentCount;
+Exited EVERY RULE --- intcurrentCount;
+Exited STMTS --- intcurrentCount;
+Exited EVERY RULE --- intcurrentCount;
+Entered EVERY RULE --- floatupperLimit;
+Entered STMT --- floatupperLimit;
+Entered EVERY RULE --- floatupperLimit;
+Entered ASSIGN --- floatupperLimit;
+Visited TERMINAL --- float
+Entered EVERY RULE --- upperLimit
+Entered ALLEXPR --- upperLimit
+Entered EVERY RULE --- upperLimit
+Entered ANDEXPR --- upperLimit
+Entered EVERY RULE --- upperLimit
+Entered EQUAL --- upperLimit
+Entered EVERY RULE --- upperLimit
+Entered REL --- upperLimit
+Entered EVERY RULE --- upperLimit
+Entered EXPR --- upperLimit
+Entered EVERY RULE --- upperLimit
+Entered TERM --- upperLimit
+Entered EVERY RULE --- upperLimit
+Entered FACTOR --- upperLimit
+Visited TERMINAL --- upperLimit
+Exited FACTOR --- upperLimit
+Exited EVERY RULE --- upperLimit
+Exited TERM --- upperLimit
+Exited EVERY RULE --- upperLimit
+Exited EXPR --- upperLimit
+Exited EVERY RULE --- upperLimit
+Exited REL --- upperLimit
+Exited EVERY RULE --- upperLimit
+Exited EQUAL --- upperLimit
+Exited EVERY RULE --- upperLimit
+Exited ANDEXPR --- upperLimit
+Exited EVERY RULE --- upperLimit
+Exited ALLEXPR --- upperLimit
+Exited EVERY RULE --- upperLimit
+Visited TERMINAL --- ;
+Exited ASSIGN --- floatupperLimit;
+Exited EVERY RULE --- floatupperLimit;
+Exited STMT --- floatupperLimit;
+Exited EVERY RULE --- floatupperLimit;
+Exited STMTS --- intcurrentCount;floatupperLimit;
+Exited EVERY RULE --- intcurrentCount;floatupperLimit;
+Entered EVERY RULE --- floatlowerLimit;
+Entered STMT --- floatlowerLimit;
+Entered EVERY RULE --- floatlowerLimit;
+Entered ASSIGN --- floatlowerLimit;
+Visited TERMINAL --- float
+Entered EVERY RULE --- lowerLimit
+Entered ALLEXPR --- lowerLimit
+Entered EVERY RULE --- lowerLimit
+Entered ANDEXPR --- lowerLimit
+Entered EVERY RULE --- lowerLimit
+Entered EQUAL --- lowerLimit
+Entered EVERY RULE --- lowerLimit
+Entered REL --- lowerLimit
+Entered EVERY RULE --- lowerLimit
+Entered EXPR --- lowerLimit
+Entered EVERY RULE --- lowerLimit
+Entered TERM --- lowerLimit
+Entered EVERY RULE --- lowerLimit
+Entered FACTOR --- lowerLimit
+Visited TERMINAL --- lowerLimit
+Exited FACTOR --- lowerLimit
+Exited EVERY RULE --- lowerLimit
+Exited TERM --- lowerLimit
+Exited EVERY RULE --- lowerLimit
+Exited EXPR --- lowerLimit
+Exited EVERY RULE --- lowerLimit
+Exited REL --- lowerLimit
+Exited EVERY RULE --- lowerLimit
+Exited EQUAL --- lowerLimit
+Exited EVERY RULE --- lowerLimit
+Exited ANDEXPR --- lowerLimit
+Exited EVERY RULE --- lowerLimit
+Exited ALLEXPR --- lowerLimit
+Exited EVERY RULE --- lowerLimit
+Visited TERMINAL --- ;
+Exited ASSIGN --- floatlowerLimit;
+Exited EVERY RULE --- floatlowerLimit;
+Exited STMT --- floatlowerLimit;
+Exited EVERY RULE --- floatlowerLimit;
+Exited STMTS --- intcurrentCount;floatupperLimit;floatlowerLimit;
+Exited EVERY RULE --- intcurrentCount;floatupperLimit;floatlowerLimit;
+Entered EVERY RULE --- currentCount=1;
+Entered STMT --- currentCount=1;
+Entered EVERY RULE --- currentCount=1;
+Entered ASSIGN --- currentCount=1;
+Visited TERMINAL --- currentCount
+Visited TERMINAL --- =
+Entered EVERY RULE --- 1
+Entered ALLEXPR --- 1
+Entered EVERY RULE --- 1
+Entered ANDEXPR --- 1
+Entered EVERY RULE --- 1
+Entered EQUAL --- 1
+Entered EVERY RULE --- 1
+Entered REL --- 1
+Entered EVERY RULE --- 1
+Entered EXPR --- 1
+Entered EVERY RULE --- 1
+Entered TERM --- 1
+Entered EVERY RULE --- 1
+Entered FACTOR --- 1
+Visited TERMINAL --- 1
+Exited FACTOR --- 1
+Exited EVERY RULE --- 1
+Exited TERM --- 1
+Exited EVERY RULE --- 1
+Exited EXPR --- 1
+Exited EVERY RULE --- 1
+Exited REL --- 1
+Exited EVERY RULE --- 1
+Exited EQUAL --- 1
+Exited EVERY RULE --- 1
+Exited ANDEXPR --- 1
+Exited EVERY RULE --- 1
+Exited ALLEXPR --- 1
+Exited EVERY RULE --- 1
+Visited TERMINAL --- ;
+Exited ASSIGN --- currentCount=1;
+Exited EVERY RULE --- currentCount=1;
+Exited STMT --- currentCount=1;
+Exited EVERY RULE --- currentCount=1;
+Exited STMTS --- intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;
+Exited EVERY RULE --- intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;
+Entered EVERY RULE --- upperLimit=1125.89;
+Entered STMT --- upperLimit=1125.89;
+Entered EVERY RULE --- upperLimit=1125.89;
+Entered ASSIGN --- upperLimit=1125.89;
+Visited TERMINAL --- upperLimit
+Visited TERMINAL --- =
+Entered EVERY RULE --- 1125.89
+Entered ALLEXPR --- 1125.89
+Entered EVERY RULE --- 1125.89
+Entered ANDEXPR --- 1125.89
+Entered EVERY RULE --- 1125.89
+Entered EQUAL --- 1125.89
+Entered EVERY RULE --- 1125.89
+Entered REL --- 1125.89
+Entered EVERY RULE --- 1125.89
+Entered EXPR --- 1125.89
+Entered EVERY RULE --- 1125.89
+Entered TERM --- 1125.89
+Entered EVERY RULE --- 1125.89
+Entered FACTOR --- 1125.89
+Visited TERMINAL --- 1125.89
+Exited FACTOR --- 1125.89
+Exited EVERY RULE --- 1125.89
+Exited TERM --- 1125.89
+Exited EVERY RULE --- 1125.89
+Exited EXPR --- 1125.89
+Exited EVERY RULE --- 1125.89
+Exited REL --- 1125.89
+Exited EVERY RULE --- 1125.89
+Exited EQUAL --- 1125.89
+Exited EVERY RULE --- 1125.89
+Exited ANDEXPR --- 1125.89
+Exited EVERY RULE --- 1125.89
+Exited ALLEXPR --- 1125.89
+Exited EVERY RULE --- 1125.89
+Visited TERMINAL --- ;
+Exited ASSIGN --- upperLimit=1125.89;
+Exited EVERY RULE --- upperLimit=1125.89;
+Exited STMT --- upperLimit=1125.89;
+Exited EVERY RULE --- upperLimit=1125.89;
+Exited STMTS --- intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;
+Exited EVERY RULE --- intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;
+Entered EVERY RULE --- lowerLimit=10.99;
+Entered STMT --- lowerLimit=10.99;
+Entered EVERY RULE --- lowerLimit=10.99;
+Entered ASSIGN --- lowerLimit=10.99;
+Visited TERMINAL --- lowerLimit
+Visited TERMINAL --- =
+Entered EVERY RULE --- 10.99
+Entered ALLEXPR --- 10.99
+Entered EVERY RULE --- 10.99
+Entered ANDEXPR --- 10.99
+Entered EVERY RULE --- 10.99
+Entered EQUAL --- 10.99
+Entered EVERY RULE --- 10.99
+Entered REL --- 10.99
+Entered EVERY RULE --- 10.99
+Entered EXPR --- 10.99
+Entered EVERY RULE --- 10.99
+Entered TERM --- 10.99
+Entered EVERY RULE --- 10.99
+Entered FACTOR --- 10.99
+Visited TERMINAL --- 10.99
+Exited FACTOR --- 10.99
+Exited EVERY RULE --- 10.99
+Exited TERM --- 10.99
+Exited EVERY RULE --- 10.99
+Exited EXPR --- 10.99
+Exited EVERY RULE --- 10.99
+Exited REL --- 10.99
+Exited EVERY RULE --- 10.99
+Exited EQUAL --- 10.99
+Exited EVERY RULE --- 10.99
+Exited ANDEXPR --- 10.99
+Exited EVERY RULE --- 10.99
+Exited ALLEXPR --- 10.99
+Exited EVERY RULE --- 10.99
+Visited TERMINAL --- ;
+Exited ASSIGN --- lowerLimit=10.99;
+Exited EVERY RULE --- lowerLimit=10.99;
+Exited STMT --- lowerLimit=10.99;
+Exited EVERY RULE --- lowerLimit=10.99;
+Exited STMTS --- intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;lowerLimit=10.99;
+Exited EVERY RULE --- intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;lowerLimit=10.99;
+Entered EVERY RULE --- while(currentCount<10000){upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}
+Entered STMT --- while(currentCount<10000){upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}
+Visited TERMINAL --- while
+Visited TERMINAL --- (
+Entered EVERY RULE --- currentCount<10000
+Entered ALLEXPR --- currentCount<10000
+Entered EVERY RULE --- currentCount<10000
+Entered ANDEXPR --- currentCount<10000
+Entered EVERY RULE --- currentCount<10000
+Entered EQUAL --- currentCount<10000
+Entered EVERY RULE --- currentCount<10000
+Entered REL --- currentCount<10000
+Entered EVERY RULE --- currentCount
+Entered EXPR --- currentCount
+Entered EVERY RULE --- currentCount
+Entered TERM --- currentCount
+Entered EVERY RULE --- currentCount
+Entered FACTOR --- currentCount
+Visited TERMINAL --- currentCount
+Exited FACTOR --- currentCount
+Exited EVERY RULE --- currentCount
+Exited TERM --- currentCount
+Exited EVERY RULE --- currentCount
+Exited EXPR --- currentCount
+Exited EVERY RULE --- currentCount
+Visited TERMINAL --- <
+Entered EVERY RULE --- 10000
+Entered EXPR --- 10000
+Entered EVERY RULE --- 10000
+Entered TERM --- 10000
+Entered EVERY RULE --- 10000
+Entered FACTOR --- 10000
+Visited TERMINAL --- 10000
+Exited FACTOR --- 10000
+Exited EVERY RULE --- 10000
+Exited TERM --- 10000
+Exited EVERY RULE --- 10000
+Exited EXPR --- 10000
+Exited EVERY RULE --- 10000
+Exited REL --- currentCount<10000
+Exited EVERY RULE --- currentCount<10000
+Exited EQUAL --- currentCount<10000
+Exited EVERY RULE --- currentCount<10000
+Exited ANDEXPR --- currentCount<10000
+Exited EVERY RULE --- currentCount<10000
+Exited ALLEXPR --- currentCount<10000
+Exited EVERY RULE --- currentCount<10000
+Visited TERMINAL --- )
+Entered EVERY RULE --- {upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}
+Entered STMT --- {upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}
+Entered EVERY RULE --- {upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}
+Entered BLOCK --- {upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}
+Visited TERMINAL --- {
+Entered EVERY RULE --- 
+Entered DECLS --- 
+Exited DECLS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}
+Entered STMTS --- upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}
+Entered EVERY RULE --- upperLimit=upperLimit+lowerLimit;
+Entered STMTS --- upperLimit=upperLimit+lowerLimit;
+Entered EVERY RULE --- 
+Entered STMTS --- 
+Exited STMTS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- upperLimit=upperLimit+lowerLimit;
+Entered STMT --- upperLimit=upperLimit+lowerLimit;
+Entered EVERY RULE --- upperLimit=upperLimit+lowerLimit;
+Entered ASSIGN --- upperLimit=upperLimit+lowerLimit;
+Visited TERMINAL --- upperLimit
+Visited TERMINAL --- =
+Entered EVERY RULE --- upperLimit+lowerLimit
+Entered ALLEXPR --- upperLimit+lowerLimit
+Entered EVERY RULE --- upperLimit+lowerLimit
+Entered ANDEXPR --- upperLimit+lowerLimit
+Entered EVERY RULE --- upperLimit+lowerLimit
+Entered EQUAL --- upperLimit+lowerLimit
+Entered EVERY RULE --- upperLimit+lowerLimit
+Entered REL --- upperLimit+lowerLimit
+Entered EVERY RULE --- upperLimit+lowerLimit
+Entered EXPR --- upperLimit+lowerLimit
+Entered EVERY RULE --- upperLimit
+Entered EXPR --- upperLimit
+Entered EVERY RULE --- upperLimit
+Entered TERM --- upperLimit
+Entered EVERY RULE --- upperLimit
+Entered FACTOR --- upperLimit
+Visited TERMINAL --- upperLimit
+Exited FACTOR --- upperLimit
+Exited EVERY RULE --- upperLimit
+Exited TERM --- upperLimit
+Exited EVERY RULE --- upperLimit
+Exited EXPR --- upperLimit
+Exited EVERY RULE --- upperLimit
+Visited TERMINAL --- +
+Entered EVERY RULE --- lowerLimit
+Entered TERM --- lowerLimit
+Entered EVERY RULE --- lowerLimit
+Entered FACTOR --- lowerLimit
+Visited TERMINAL --- lowerLimit
+Exited FACTOR --- lowerLimit
+Exited EVERY RULE --- lowerLimit
+Exited TERM --- lowerLimit
+Exited EVERY RULE --- lowerLimit
+Exited EXPR --- upperLimit+lowerLimit
+Exited EVERY RULE --- upperLimit+lowerLimit
+Exited REL --- upperLimit+lowerLimit
+Exited EVERY RULE --- upperLimit+lowerLimit
+Exited EQUAL --- upperLimit+lowerLimit
+Exited EVERY RULE --- upperLimit+lowerLimit
+Exited ANDEXPR --- upperLimit+lowerLimit
+Exited EVERY RULE --- upperLimit+lowerLimit
+Exited ALLEXPR --- upperLimit+lowerLimit
+Exited EVERY RULE --- upperLimit+lowerLimit
+Visited TERMINAL --- ;
+Exited ASSIGN --- upperLimit=upperLimit+lowerLimit;
+Exited EVERY RULE --- upperLimit=upperLimit+lowerLimit;
+Exited STMT --- upperLimit=upperLimit+lowerLimit;
+Exited EVERY RULE --- upperLimit=upperLimit+lowerLimit;
+Exited STMTS --- upperLimit=upperLimit+lowerLimit;
+Exited EVERY RULE --- upperLimit=upperLimit+lowerLimit;
+Entered EVERY RULE --- if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}
+Entered STMT --- if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}
+Visited TERMINAL --- if
+Visited TERMINAL --- (
+Entered EVERY RULE --- currentCount>=100
+Entered ALLEXPR --- currentCount>=100
+Entered EVERY RULE --- currentCount>=100
+Entered ANDEXPR --- currentCount>=100
+Entered EVERY RULE --- currentCount>=100
+Entered EQUAL --- currentCount>=100
+Entered EVERY RULE --- currentCount>=100
+Entered REL --- currentCount>=100
+Entered EVERY RULE --- currentCount
+Entered EXPR --- currentCount
+Entered EVERY RULE --- currentCount
+Entered TERM --- currentCount
+Entered EVERY RULE --- currentCount
+Entered FACTOR --- currentCount
+Visited TERMINAL --- currentCount
+Exited FACTOR --- currentCount
+Exited EVERY RULE --- currentCount
+Exited TERM --- currentCount
+Exited EVERY RULE --- currentCount
+Exited EXPR --- currentCount
+Exited EVERY RULE --- currentCount
+Visited TERMINAL --- >=
+Entered EVERY RULE --- 100
+Entered EXPR --- 100
+Entered EVERY RULE --- 100
+Entered TERM --- 100
+Entered EVERY RULE --- 100
+Entered FACTOR --- 100
+Visited TERMINAL --- 100
+Exited FACTOR --- 100
+Exited EVERY RULE --- 100
+Exited TERM --- 100
+Exited EVERY RULE --- 100
+Exited EXPR --- 100
+Exited EVERY RULE --- 100
+Exited REL --- currentCount>=100
+Exited EVERY RULE --- currentCount>=100
+Exited EQUAL --- currentCount>=100
+Exited EVERY RULE --- currentCount>=100
+Exited ANDEXPR --- currentCount>=100
+Exited EVERY RULE --- currentCount>=100
+Exited ALLEXPR --- currentCount>=100
+Exited EVERY RULE --- currentCount>=100
+Visited TERMINAL --- )
+Entered EVERY RULE --- {upperLimit=21.12;currentCount=currentCount+3;}
+Entered STMT --- {upperLimit=21.12;currentCount=currentCount+3;}
+Entered EVERY RULE --- {upperLimit=21.12;currentCount=currentCount+3;}
+Entered BLOCK --- {upperLimit=21.12;currentCount=currentCount+3;}
+Visited TERMINAL --- {
+Entered EVERY RULE --- 
+Entered DECLS --- 
+Exited DECLS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- upperLimit=21.12;currentCount=currentCount+3;
+Entered STMTS --- upperLimit=21.12;currentCount=currentCount+3;
+Entered EVERY RULE --- upperLimit=21.12;
+Entered STMTS --- upperLimit=21.12;
+Entered EVERY RULE --- 
+Entered STMTS --- 
+Exited STMTS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- upperLimit=21.12;
+Entered STMT --- upperLimit=21.12;
+Entered EVERY RULE --- upperLimit=21.12;
+Entered ASSIGN --- upperLimit=21.12;
+Visited TERMINAL --- upperLimit
+Visited TERMINAL --- =
+Entered EVERY RULE --- 21.12
+Entered ALLEXPR --- 21.12
+Entered EVERY RULE --- 21.12
+Entered ANDEXPR --- 21.12
+Entered EVERY RULE --- 21.12
+Entered EQUAL --- 21.12
+Entered EVERY RULE --- 21.12
+Entered REL --- 21.12
+Entered EVERY RULE --- 21.12
+Entered EXPR --- 21.12
+Entered EVERY RULE --- 21.12
+Entered TERM --- 21.12
+Entered EVERY RULE --- 21.12
+Entered FACTOR --- 21.12
+Visited TERMINAL --- 21.12
+Exited FACTOR --- 21.12
+Exited EVERY RULE --- 21.12
+Exited TERM --- 21.12
+Exited EVERY RULE --- 21.12
+Exited EXPR --- 21.12
+Exited EVERY RULE --- 21.12
+Exited REL --- 21.12
+Exited EVERY RULE --- 21.12
+Exited EQUAL --- 21.12
+Exited EVERY RULE --- 21.12
+Exited ANDEXPR --- 21.12
+Exited EVERY RULE --- 21.12
+Exited ALLEXPR --- 21.12
+Exited EVERY RULE --- 21.12
+Visited TERMINAL --- ;
+Exited ASSIGN --- upperLimit=21.12;
+Exited EVERY RULE --- upperLimit=21.12;
+Exited STMT --- upperLimit=21.12;
+Exited EVERY RULE --- upperLimit=21.12;
+Exited STMTS --- upperLimit=21.12;
+Exited EVERY RULE --- upperLimit=21.12;
+Entered EVERY RULE --- currentCount=currentCount+3;
+Entered STMT --- currentCount=currentCount+3;
+Entered EVERY RULE --- currentCount=currentCount+3;
+Entered ASSIGN --- currentCount=currentCount+3;
+Visited TERMINAL --- currentCount
+Visited TERMINAL --- =
+Entered EVERY RULE --- currentCount+3
+Entered ALLEXPR --- currentCount+3
+Entered EVERY RULE --- currentCount+3
+Entered ANDEXPR --- currentCount+3
+Entered EVERY RULE --- currentCount+3
+Entered EQUAL --- currentCount+3
+Entered EVERY RULE --- currentCount+3
+Entered REL --- currentCount+3
+Entered EVERY RULE --- currentCount+3
+Entered EXPR --- currentCount+3
+Entered EVERY RULE --- currentCount
+Entered EXPR --- currentCount
+Entered EVERY RULE --- currentCount
+Entered TERM --- currentCount
+Entered EVERY RULE --- currentCount
+Entered FACTOR --- currentCount
+Visited TERMINAL --- currentCount
+Exited FACTOR --- currentCount
+Exited EVERY RULE --- currentCount
+Exited TERM --- currentCount
+Exited EVERY RULE --- currentCount
+Exited EXPR --- currentCount
+Exited EVERY RULE --- currentCount
+Visited TERMINAL --- +
+Entered EVERY RULE --- 3
+Entered TERM --- 3
+Entered EVERY RULE --- 3
+Entered FACTOR --- 3
+Visited TERMINAL --- 3
+Exited FACTOR --- 3
+Exited EVERY RULE --- 3
+Exited TERM --- 3
+Exited EVERY RULE --- 3
+Exited EXPR --- currentCount+3
+Exited EVERY RULE --- currentCount+3
+Exited REL --- currentCount+3
+Exited EVERY RULE --- currentCount+3
+Exited EQUAL --- currentCount+3
+Exited EVERY RULE --- currentCount+3
+Exited ANDEXPR --- currentCount+3
+Exited EVERY RULE --- currentCount+3
+Exited ALLEXPR --- currentCount+3
+Exited EVERY RULE --- currentCount+3
+Visited TERMINAL --- ;
+Exited ASSIGN --- currentCount=currentCount+3;
+Exited EVERY RULE --- currentCount=currentCount+3;
+Exited STMT --- currentCount=currentCount+3;
+Exited EVERY RULE --- currentCount=currentCount+3;
+Exited STMTS --- upperLimit=21.12;currentCount=currentCount+3;
+Exited EVERY RULE --- upperLimit=21.12;currentCount=currentCount+3;
+Visited TERMINAL --- }
+Exited BLOCK --- {upperLimit=21.12;currentCount=currentCount+3;}
+Exited EVERY RULE --- {upperLimit=21.12;currentCount=currentCount+3;}
+Exited STMT --- {upperLimit=21.12;currentCount=currentCount+3;}
+Exited EVERY RULE --- {upperLimit=21.12;currentCount=currentCount+3;}
+Exited STMT --- if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}
+Exited EVERY RULE --- if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}
+Exited STMTS --- upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}
+Exited EVERY RULE --- upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}
+Visited TERMINAL --- }
+Exited BLOCK --- {upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}
+Exited EVERY RULE --- {upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}
+Exited STMT --- {upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}
+Exited EVERY RULE --- {upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}
+Exited STMT --- while(currentCount<10000){upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}
+Exited EVERY RULE --- while(currentCount<10000){upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}
+Exited STMTS --- intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;lowerLimit=10.99;while(currentCount<10000){upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}
+Exited EVERY RULE --- intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;lowerLimit=10.99;while(currentCount<10000){upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}
+Visited TERMINAL --- }
+Exited BLOCK --- {intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;lowerLimit=10.99;while(currentCount<10000){upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}}
+Exited EVERY RULE --- {intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;lowerLimit=10.99;while(currentCount<10000){upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}}
+Exited PROGRAM --- {intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;lowerLimit=10.99;while(currentCount<10000){upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}}
+Exited EVERY RULE --- {intcurrentCount;floatupperLimit;floatlowerLimit;currentCount=1;upperLimit=1125.89;lowerLimit=10.99;while(currentCount<10000){upperLimit=upperLimit+lowerLimit;if(currentCount>=100){upperLimit=21.12;currentCount=currentCount+3;}}}
+Tree has been walked by walker
+Listening has concluded ############################################################

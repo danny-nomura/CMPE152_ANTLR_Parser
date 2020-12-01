@@ -1,0 +1,509 @@
+Entered EVERY RULE --- {intvar;intk;booltest;for(var=10;test==true;var++){if(var<=20){k=k+20;}else{k=0;test=false;}}}
+Entered PROGRAM --- {intvar;intk;booltest;for(var=10;test==true;var++){if(var<=20){k=k+20;}else{k=0;test=false;}}}
+Entered EVERY RULE --- {intvar;intk;booltest;for(var=10;test==true;var++){if(var<=20){k=k+20;}else{k=0;test=false;}}}
+Entered BLOCK --- {intvar;intk;booltest;for(var=10;test==true;var++){if(var<=20){k=k+20;}else{k=0;test=false;}}}
+Visited TERMINAL --- {
+Entered EVERY RULE --- 
+Entered DECLS --- 
+Exited DECLS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- intvar;intk;booltest;for(var=10;test==true;var++){if(var<=20){k=k+20;}else{k=0;test=false;}}
+Entered STMTS --- intvar;intk;booltest;for(var=10;test==true;var++){if(var<=20){k=k+20;}else{k=0;test=false;}}
+Entered EVERY RULE --- intvar;intk;booltest;
+Entered STMTS --- intvar;intk;booltest;
+Entered EVERY RULE --- intvar;intk;
+Entered STMTS --- intvar;intk;
+Entered EVERY RULE --- intvar;
+Entered STMTS --- intvar;
+Entered EVERY RULE --- 
+Entered STMTS --- 
+Exited STMTS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- intvar;
+Entered STMT --- intvar;
+Entered EVERY RULE --- intvar;
+Entered ASSIGN --- intvar;
+Visited TERMINAL --- int
+Entered EVERY RULE --- var
+Entered ALLEXPR --- var
+Entered EVERY RULE --- var
+Entered ANDEXPR --- var
+Entered EVERY RULE --- var
+Entered EQUAL --- var
+Entered EVERY RULE --- var
+Entered REL --- var
+Entered EVERY RULE --- var
+Entered EXPR --- var
+Entered EVERY RULE --- var
+Entered TERM --- var
+Entered EVERY RULE --- var
+Entered FACTOR --- var
+Visited TERMINAL --- var
+Exited FACTOR --- var
+Exited EVERY RULE --- var
+Exited TERM --- var
+Exited EVERY RULE --- var
+Exited EXPR --- var
+Exited EVERY RULE --- var
+Exited REL --- var
+Exited EVERY RULE --- var
+Exited EQUAL --- var
+Exited EVERY RULE --- var
+Exited ANDEXPR --- var
+Exited EVERY RULE --- var
+Exited ALLEXPR --- var
+Exited EVERY RULE --- var
+Visited TERMINAL --- ;
+Exited ASSIGN --- intvar;
+Exited EVERY RULE --- intvar;
+Exited STMT --- intvar;
+Exited EVERY RULE --- intvar;
+Exited STMTS --- intvar;
+Exited EVERY RULE --- intvar;
+Entered EVERY RULE --- intk;
+Entered STMT --- intk;
+Entered EVERY RULE --- intk;
+Entered ASSIGN --- intk;
+Visited TERMINAL --- int
+Entered EVERY RULE --- k
+Entered ALLEXPR --- k
+Entered EVERY RULE --- k
+Entered ANDEXPR --- k
+Entered EVERY RULE --- k
+Entered EQUAL --- k
+Entered EVERY RULE --- k
+Entered REL --- k
+Entered EVERY RULE --- k
+Entered EXPR --- k
+Entered EVERY RULE --- k
+Entered TERM --- k
+Entered EVERY RULE --- k
+Entered FACTOR --- k
+Visited TERMINAL --- k
+Exited FACTOR --- k
+Exited EVERY RULE --- k
+Exited TERM --- k
+Exited EVERY RULE --- k
+Exited EXPR --- k
+Exited EVERY RULE --- k
+Exited REL --- k
+Exited EVERY RULE --- k
+Exited EQUAL --- k
+Exited EVERY RULE --- k
+Exited ANDEXPR --- k
+Exited EVERY RULE --- k
+Exited ALLEXPR --- k
+Exited EVERY RULE --- k
+Visited TERMINAL --- ;
+Exited ASSIGN --- intk;
+Exited EVERY RULE --- intk;
+Exited STMT --- intk;
+Exited EVERY RULE --- intk;
+Exited STMTS --- intvar;intk;
+Exited EVERY RULE --- intvar;intk;
+Entered EVERY RULE --- booltest;
+Entered STMT --- booltest;
+Entered EVERY RULE --- booltest;
+Entered ASSIGN --- booltest;
+Visited TERMINAL --- bool
+Entered EVERY RULE --- test
+Entered ALLEXPR --- test
+Entered EVERY RULE --- test
+Entered ANDEXPR --- test
+Entered EVERY RULE --- test
+Entered EQUAL --- test
+Entered EVERY RULE --- test
+Entered REL --- test
+Entered EVERY RULE --- test
+Entered EXPR --- test
+Entered EVERY RULE --- test
+Entered TERM --- test
+Entered EVERY RULE --- test
+Entered FACTOR --- test
+Visited TERMINAL --- test
+Exited FACTOR --- test
+Exited EVERY RULE --- test
+Exited TERM --- test
+Exited EVERY RULE --- test
+Exited EXPR --- test
+Exited EVERY RULE --- test
+Exited REL --- test
+Exited EVERY RULE --- test
+Exited EQUAL --- test
+Exited EVERY RULE --- test
+Exited ANDEXPR --- test
+Exited EVERY RULE --- test
+Exited ALLEXPR --- test
+Exited EVERY RULE --- test
+Visited TERMINAL --- ;
+Exited ASSIGN --- booltest;
+Exited EVERY RULE --- booltest;
+Exited STMT --- booltest;
+Exited EVERY RULE --- booltest;
+Exited STMTS --- intvar;intk;booltest;
+Exited EVERY RULE --- intvar;intk;booltest;
+Entered EVERY RULE --- for(var=10;test==true;var++){if(var<=20){k=k+20;}else{k=0;test=false;}}
+Entered STMT --- for(var=10;test==true;var++){if(var<=20){k=k+20;}else{k=0;test=false;}}
+Visited TERMINAL --- for
+Visited TERMINAL --- (
+Entered EVERY RULE --- var=10;
+Entered ASSIGN --- var=10;
+Visited TERMINAL --- var
+Visited TERMINAL --- =
+Entered EVERY RULE --- 10
+Entered ALLEXPR --- 10
+Entered EVERY RULE --- 10
+Entered ANDEXPR --- 10
+Entered EVERY RULE --- 10
+Entered EQUAL --- 10
+Entered EVERY RULE --- 10
+Entered REL --- 10
+Entered EVERY RULE --- 10
+Entered EXPR --- 10
+Entered EVERY RULE --- 10
+Entered TERM --- 10
+Entered EVERY RULE --- 10
+Entered FACTOR --- 10
+Visited TERMINAL --- 10
+Exited FACTOR --- 10
+Exited EVERY RULE --- 10
+Exited TERM --- 10
+Exited EVERY RULE --- 10
+Exited EXPR --- 10
+Exited EVERY RULE --- 10
+Exited REL --- 10
+Exited EVERY RULE --- 10
+Exited EQUAL --- 10
+Exited EVERY RULE --- 10
+Exited ANDEXPR --- 10
+Exited EVERY RULE --- 10
+Exited ALLEXPR --- 10
+Exited EVERY RULE --- 10
+Visited TERMINAL --- ;
+Exited ASSIGN --- var=10;
+Exited EVERY RULE --- var=10;
+Entered EVERY RULE --- test==true
+Entered ALLEXPR --- test==true
+Entered EVERY RULE --- test==true
+Entered ANDEXPR --- test==true
+Entered EVERY RULE --- test==true
+Entered EQUAL --- test==true
+Entered EVERY RULE --- test
+Entered EQUAL --- test
+Entered EVERY RULE --- test
+Entered REL --- test
+Entered EVERY RULE --- test
+Entered EXPR --- test
+Entered EVERY RULE --- test
+Entered TERM --- test
+Entered EVERY RULE --- test
+Entered FACTOR --- test
+Visited TERMINAL --- test
+Exited FACTOR --- test
+Exited EVERY RULE --- test
+Exited TERM --- test
+Exited EVERY RULE --- test
+Exited EXPR --- test
+Exited EVERY RULE --- test
+Exited REL --- test
+Exited EVERY RULE --- test
+Exited EQUAL --- test
+Exited EVERY RULE --- test
+Visited TERMINAL --- ==
+Entered EVERY RULE --- true
+Entered REL --- true
+Entered EVERY RULE --- true
+Entered EXPR --- true
+Entered EVERY RULE --- true
+Entered TERM --- true
+Entered EVERY RULE --- true
+Entered FACTOR --- true
+Visited TERMINAL --- true
+Exited FACTOR --- true
+Exited EVERY RULE --- true
+Exited TERM --- true
+Exited EVERY RULE --- true
+Exited EXPR --- true
+Exited EVERY RULE --- true
+Exited REL --- true
+Exited EVERY RULE --- true
+Exited EQUAL --- test==true
+Exited EVERY RULE --- test==true
+Exited ANDEXPR --- test==true
+Exited EVERY RULE --- test==true
+Exited ALLEXPR --- test==true
+Exited EVERY RULE --- test==true
+Visited TERMINAL --- ;
+Entered EVERY RULE --- var++
+Entered INCDECEXPR --- var++
+Visited TERMINAL --- var
+Visited TERMINAL --- ++
+Exited INCDECEXPR --- var++
+Exited EVERY RULE --- var++
+Visited TERMINAL --- )
+Entered EVERY RULE --- {if(var<=20){k=k+20;}else{k=0;test=false;}}
+Entered STMT --- {if(var<=20){k=k+20;}else{k=0;test=false;}}
+Entered EVERY RULE --- {if(var<=20){k=k+20;}else{k=0;test=false;}}
+Entered BLOCK --- {if(var<=20){k=k+20;}else{k=0;test=false;}}
+Visited TERMINAL --- {
+Entered EVERY RULE --- 
+Entered DECLS --- 
+Exited DECLS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- if(var<=20){k=k+20;}else{k=0;test=false;}
+Entered STMTS --- if(var<=20){k=k+20;}else{k=0;test=false;}
+Entered EVERY RULE --- 
+Entered STMTS --- 
+Exited STMTS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- if(var<=20){k=k+20;}else{k=0;test=false;}
+Entered STMT --- if(var<=20){k=k+20;}else{k=0;test=false;}
+Visited TERMINAL --- if
+Visited TERMINAL --- (
+Entered EVERY RULE --- var<=20
+Entered ALLEXPR --- var<=20
+Entered EVERY RULE --- var<=20
+Entered ANDEXPR --- var<=20
+Entered EVERY RULE --- var<=20
+Entered EQUAL --- var<=20
+Entered EVERY RULE --- var<=20
+Entered REL --- var<=20
+Entered EVERY RULE --- var
+Entered EXPR --- var
+Entered EVERY RULE --- var
+Entered TERM --- var
+Entered EVERY RULE --- var
+Entered FACTOR --- var
+Visited TERMINAL --- var
+Exited FACTOR --- var
+Exited EVERY RULE --- var
+Exited TERM --- var
+Exited EVERY RULE --- var
+Exited EXPR --- var
+Exited EVERY RULE --- var
+Visited TERMINAL --- <=
+Entered EVERY RULE --- 20
+Entered EXPR --- 20
+Entered EVERY RULE --- 20
+Entered TERM --- 20
+Entered EVERY RULE --- 20
+Entered FACTOR --- 20
+Visited TERMINAL --- 20
+Exited FACTOR --- 20
+Exited EVERY RULE --- 20
+Exited TERM --- 20
+Exited EVERY RULE --- 20
+Exited EXPR --- 20
+Exited EVERY RULE --- 20
+Exited REL --- var<=20
+Exited EVERY RULE --- var<=20
+Exited EQUAL --- var<=20
+Exited EVERY RULE --- var<=20
+Exited ANDEXPR --- var<=20
+Exited EVERY RULE --- var<=20
+Exited ALLEXPR --- var<=20
+Exited EVERY RULE --- var<=20
+Visited TERMINAL --- )
+Entered EVERY RULE --- {k=k+20;}
+Entered STMT --- {k=k+20;}
+Entered EVERY RULE --- {k=k+20;}
+Entered BLOCK --- {k=k+20;}
+Visited TERMINAL --- {
+Entered EVERY RULE --- 
+Entered DECLS --- 
+Exited DECLS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- k=k+20;
+Entered STMTS --- k=k+20;
+Entered EVERY RULE --- 
+Entered STMTS --- 
+Exited STMTS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- k=k+20;
+Entered STMT --- k=k+20;
+Entered EVERY RULE --- k=k+20;
+Entered ASSIGN --- k=k+20;
+Visited TERMINAL --- k
+Visited TERMINAL --- =
+Entered EVERY RULE --- k+20
+Entered ALLEXPR --- k+20
+Entered EVERY RULE --- k+20
+Entered ANDEXPR --- k+20
+Entered EVERY RULE --- k+20
+Entered EQUAL --- k+20
+Entered EVERY RULE --- k+20
+Entered REL --- k+20
+Entered EVERY RULE --- k+20
+Entered EXPR --- k+20
+Entered EVERY RULE --- k
+Entered EXPR --- k
+Entered EVERY RULE --- k
+Entered TERM --- k
+Entered EVERY RULE --- k
+Entered FACTOR --- k
+Visited TERMINAL --- k
+Exited FACTOR --- k
+Exited EVERY RULE --- k
+Exited TERM --- k
+Exited EVERY RULE --- k
+Exited EXPR --- k
+Exited EVERY RULE --- k
+Visited TERMINAL --- +
+Entered EVERY RULE --- 20
+Entered TERM --- 20
+Entered EVERY RULE --- 20
+Entered FACTOR --- 20
+Visited TERMINAL --- 20
+Exited FACTOR --- 20
+Exited EVERY RULE --- 20
+Exited TERM --- 20
+Exited EVERY RULE --- 20
+Exited EXPR --- k+20
+Exited EVERY RULE --- k+20
+Exited REL --- k+20
+Exited EVERY RULE --- k+20
+Exited EQUAL --- k+20
+Exited EVERY RULE --- k+20
+Exited ANDEXPR --- k+20
+Exited EVERY RULE --- k+20
+Exited ALLEXPR --- k+20
+Exited EVERY RULE --- k+20
+Visited TERMINAL --- ;
+Exited ASSIGN --- k=k+20;
+Exited EVERY RULE --- k=k+20;
+Exited STMT --- k=k+20;
+Exited EVERY RULE --- k=k+20;
+Exited STMTS --- k=k+20;
+Exited EVERY RULE --- k=k+20;
+Visited TERMINAL --- }
+Exited BLOCK --- {k=k+20;}
+Exited EVERY RULE --- {k=k+20;}
+Exited STMT --- {k=k+20;}
+Exited EVERY RULE --- {k=k+20;}
+Visited TERMINAL --- else
+Entered EVERY RULE --- {k=0;test=false;}
+Entered STMT --- {k=0;test=false;}
+Entered EVERY RULE --- {k=0;test=false;}
+Entered BLOCK --- {k=0;test=false;}
+Visited TERMINAL --- {
+Entered EVERY RULE --- 
+Entered DECLS --- 
+Exited DECLS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- k=0;test=false;
+Entered STMTS --- k=0;test=false;
+Entered EVERY RULE --- k=0;
+Entered STMTS --- k=0;
+Entered EVERY RULE --- 
+Entered STMTS --- 
+Exited STMTS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- k=0;
+Entered STMT --- k=0;
+Entered EVERY RULE --- k=0;
+Entered ASSIGN --- k=0;
+Visited TERMINAL --- k
+Visited TERMINAL --- =
+Entered EVERY RULE --- 0
+Entered ALLEXPR --- 0
+Entered EVERY RULE --- 0
+Entered ANDEXPR --- 0
+Entered EVERY RULE --- 0
+Entered EQUAL --- 0
+Entered EVERY RULE --- 0
+Entered REL --- 0
+Entered EVERY RULE --- 0
+Entered EXPR --- 0
+Entered EVERY RULE --- 0
+Entered TERM --- 0
+Entered EVERY RULE --- 0
+Entered FACTOR --- 0
+Visited TERMINAL --- 0
+Exited FACTOR --- 0
+Exited EVERY RULE --- 0
+Exited TERM --- 0
+Exited EVERY RULE --- 0
+Exited EXPR --- 0
+Exited EVERY RULE --- 0
+Exited REL --- 0
+Exited EVERY RULE --- 0
+Exited EQUAL --- 0
+Exited EVERY RULE --- 0
+Exited ANDEXPR --- 0
+Exited EVERY RULE --- 0
+Exited ALLEXPR --- 0
+Exited EVERY RULE --- 0
+Visited TERMINAL --- ;
+Exited ASSIGN --- k=0;
+Exited EVERY RULE --- k=0;
+Exited STMT --- k=0;
+Exited EVERY RULE --- k=0;
+Exited STMTS --- k=0;
+Exited EVERY RULE --- k=0;
+Entered EVERY RULE --- test=false;
+Entered STMT --- test=false;
+Entered EVERY RULE --- test=false;
+Entered ASSIGN --- test=false;
+Visited TERMINAL --- test
+Visited TERMINAL --- =
+Entered EVERY RULE --- false
+Entered ALLEXPR --- false
+Entered EVERY RULE --- false
+Entered ANDEXPR --- false
+Entered EVERY RULE --- false
+Entered EQUAL --- false
+Entered EVERY RULE --- false
+Entered REL --- false
+Entered EVERY RULE --- false
+Entered EXPR --- false
+Entered EVERY RULE --- false
+Entered TERM --- false
+Entered EVERY RULE --- false
+Entered FACTOR --- false
+Visited TERMINAL --- false
+Exited FACTOR --- false
+Exited EVERY RULE --- false
+Exited TERM --- false
+Exited EVERY RULE --- false
+Exited EXPR --- false
+Exited EVERY RULE --- false
+Exited REL --- false
+Exited EVERY RULE --- false
+Exited EQUAL --- false
+Exited EVERY RULE --- false
+Exited ANDEXPR --- false
+Exited EVERY RULE --- false
+Exited ALLEXPR --- false
+Exited EVERY RULE --- false
+Visited TERMINAL --- ;
+Exited ASSIGN --- test=false;
+Exited EVERY RULE --- test=false;
+Exited STMT --- test=false;
+Exited EVERY RULE --- test=false;
+Exited STMTS --- k=0;test=false;
+Exited EVERY RULE --- k=0;test=false;
+Visited TERMINAL --- }
+Exited BLOCK --- {k=0;test=false;}
+Exited EVERY RULE --- {k=0;test=false;}
+Exited STMT --- {k=0;test=false;}
+Exited EVERY RULE --- {k=0;test=false;}
+Exited STMT --- if(var<=20){k=k+20;}else{k=0;test=false;}
+Exited EVERY RULE --- if(var<=20){k=k+20;}else{k=0;test=false;}
+Exited STMTS --- if(var<=20){k=k+20;}else{k=0;test=false;}
+Exited EVERY RULE --- if(var<=20){k=k+20;}else{k=0;test=false;}
+Visited TERMINAL --- }
+Exited BLOCK --- {if(var<=20){k=k+20;}else{k=0;test=false;}}
+Exited EVERY RULE --- {if(var<=20){k=k+20;}else{k=0;test=false;}}
+Exited STMT --- {if(var<=20){k=k+20;}else{k=0;test=false;}}
+Exited EVERY RULE --- {if(var<=20){k=k+20;}else{k=0;test=false;}}
+Exited STMT --- for(var=10;test==true;var++){if(var<=20){k=k+20;}else{k=0;test=false;}}
+Exited EVERY RULE --- for(var=10;test==true;var++){if(var<=20){k=k+20;}else{k=0;test=false;}}
+Exited STMTS --- intvar;intk;booltest;for(var=10;test==true;var++){if(var<=20){k=k+20;}else{k=0;test=false;}}
+Exited EVERY RULE --- intvar;intk;booltest;for(var=10;test==true;var++){if(var<=20){k=k+20;}else{k=0;test=false;}}
+Visited TERMINAL --- }
+Exited BLOCK --- {intvar;intk;booltest;for(var=10;test==true;var++){if(var<=20){k=k+20;}else{k=0;test=false;}}}
+Exited EVERY RULE --- {intvar;intk;booltest;for(var=10;test==true;var++){if(var<=20){k=k+20;}else{k=0;test=false;}}}
+Exited PROGRAM --- {intvar;intk;booltest;for(var=10;test==true;var++){if(var<=20){k=k+20;}else{k=0;test=false;}}}
+Exited EVERY RULE --- {intvar;intk;booltest;for(var=10;test==true;var++){if(var<=20){k=k+20;}else{k=0;test=false;}}}
+Tree has been walked by walker
+Listening has concluded ############################################################

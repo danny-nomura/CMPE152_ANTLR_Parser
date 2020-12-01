@@ -1,0 +1,406 @@
+Entered EVERY RULE --- {intr;intdd;inta;intd;r=a;dd=d;while(dd<=r){dd=2*dd;}}
+Entered PROGRAM --- {intr;intdd;inta;intd;r=a;dd=d;while(dd<=r){dd=2*dd;}}
+Entered EVERY RULE --- {intr;intdd;inta;intd;r=a;dd=d;while(dd<=r){dd=2*dd;}}
+Entered BLOCK --- {intr;intdd;inta;intd;r=a;dd=d;while(dd<=r){dd=2*dd;}}
+Visited TERMINAL --- {
+Entered EVERY RULE --- 
+Entered DECLS --- 
+Exited DECLS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- intr;intdd;inta;intd;r=a;dd=d;while(dd<=r){dd=2*dd;}
+Entered STMTS --- intr;intdd;inta;intd;r=a;dd=d;while(dd<=r){dd=2*dd;}
+Entered EVERY RULE --- intr;intdd;inta;intd;r=a;dd=d;
+Entered STMTS --- intr;intdd;inta;intd;r=a;dd=d;
+Entered EVERY RULE --- intr;intdd;inta;intd;r=a;
+Entered STMTS --- intr;intdd;inta;intd;r=a;
+Entered EVERY RULE --- intr;intdd;inta;intd;
+Entered STMTS --- intr;intdd;inta;intd;
+Entered EVERY RULE --- intr;intdd;inta;
+Entered STMTS --- intr;intdd;inta;
+Entered EVERY RULE --- intr;intdd;
+Entered STMTS --- intr;intdd;
+Entered EVERY RULE --- intr;
+Entered STMTS --- intr;
+Entered EVERY RULE --- 
+Entered STMTS --- 
+Exited STMTS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- intr;
+Entered STMT --- intr;
+Entered EVERY RULE --- intr;
+Entered ASSIGN --- intr;
+Visited TERMINAL --- int
+Entered EVERY RULE --- r
+Entered ALLEXPR --- r
+Entered EVERY RULE --- r
+Entered ANDEXPR --- r
+Entered EVERY RULE --- r
+Entered EQUAL --- r
+Entered EVERY RULE --- r
+Entered REL --- r
+Entered EVERY RULE --- r
+Entered EXPR --- r
+Entered EVERY RULE --- r
+Entered TERM --- r
+Entered EVERY RULE --- r
+Entered FACTOR --- r
+Visited TERMINAL --- r
+Exited FACTOR --- r
+Exited EVERY RULE --- r
+Exited TERM --- r
+Exited EVERY RULE --- r
+Exited EXPR --- r
+Exited EVERY RULE --- r
+Exited REL --- r
+Exited EVERY RULE --- r
+Exited EQUAL --- r
+Exited EVERY RULE --- r
+Exited ANDEXPR --- r
+Exited EVERY RULE --- r
+Exited ALLEXPR --- r
+Exited EVERY RULE --- r
+Visited TERMINAL --- ;
+Exited ASSIGN --- intr;
+Exited EVERY RULE --- intr;
+Exited STMT --- intr;
+Exited EVERY RULE --- intr;
+Exited STMTS --- intr;
+Exited EVERY RULE --- intr;
+Entered EVERY RULE --- intdd;
+Entered STMT --- intdd;
+Entered EVERY RULE --- intdd;
+Entered ASSIGN --- intdd;
+Visited TERMINAL --- int
+Entered EVERY RULE --- dd
+Entered ALLEXPR --- dd
+Entered EVERY RULE --- dd
+Entered ANDEXPR --- dd
+Entered EVERY RULE --- dd
+Entered EQUAL --- dd
+Entered EVERY RULE --- dd
+Entered REL --- dd
+Entered EVERY RULE --- dd
+Entered EXPR --- dd
+Entered EVERY RULE --- dd
+Entered TERM --- dd
+Entered EVERY RULE --- dd
+Entered FACTOR --- dd
+Visited TERMINAL --- dd
+Exited FACTOR --- dd
+Exited EVERY RULE --- dd
+Exited TERM --- dd
+Exited EVERY RULE --- dd
+Exited EXPR --- dd
+Exited EVERY RULE --- dd
+Exited REL --- dd
+Exited EVERY RULE --- dd
+Exited EQUAL --- dd
+Exited EVERY RULE --- dd
+Exited ANDEXPR --- dd
+Exited EVERY RULE --- dd
+Exited ALLEXPR --- dd
+Exited EVERY RULE --- dd
+Visited TERMINAL --- ;
+Exited ASSIGN --- intdd;
+Exited EVERY RULE --- intdd;
+Exited STMT --- intdd;
+Exited EVERY RULE --- intdd;
+Exited STMTS --- intr;intdd;
+Exited EVERY RULE --- intr;intdd;
+Entered EVERY RULE --- inta;
+Entered STMT --- inta;
+Entered EVERY RULE --- inta;
+Entered ASSIGN --- inta;
+Visited TERMINAL --- int
+Entered EVERY RULE --- a
+Entered ALLEXPR --- a
+Entered EVERY RULE --- a
+Entered ANDEXPR --- a
+Entered EVERY RULE --- a
+Entered EQUAL --- a
+Entered EVERY RULE --- a
+Entered REL --- a
+Entered EVERY RULE --- a
+Entered EXPR --- a
+Entered EVERY RULE --- a
+Entered TERM --- a
+Entered EVERY RULE --- a
+Entered FACTOR --- a
+Visited TERMINAL --- a
+Exited FACTOR --- a
+Exited EVERY RULE --- a
+Exited TERM --- a
+Exited EVERY RULE --- a
+Exited EXPR --- a
+Exited EVERY RULE --- a
+Exited REL --- a
+Exited EVERY RULE --- a
+Exited EQUAL --- a
+Exited EVERY RULE --- a
+Exited ANDEXPR --- a
+Exited EVERY RULE --- a
+Exited ALLEXPR --- a
+Exited EVERY RULE --- a
+Visited TERMINAL --- ;
+Exited ASSIGN --- inta;
+Exited EVERY RULE --- inta;
+Exited STMT --- inta;
+Exited EVERY RULE --- inta;
+Exited STMTS --- intr;intdd;inta;
+Exited EVERY RULE --- intr;intdd;inta;
+Entered EVERY RULE --- intd;
+Entered STMT --- intd;
+Entered EVERY RULE --- intd;
+Entered ASSIGN --- intd;
+Visited TERMINAL --- int
+Entered EVERY RULE --- d
+Entered ALLEXPR --- d
+Entered EVERY RULE --- d
+Entered ANDEXPR --- d
+Entered EVERY RULE --- d
+Entered EQUAL --- d
+Entered EVERY RULE --- d
+Entered REL --- d
+Entered EVERY RULE --- d
+Entered EXPR --- d
+Entered EVERY RULE --- d
+Entered TERM --- d
+Entered EVERY RULE --- d
+Entered FACTOR --- d
+Visited TERMINAL --- d
+Exited FACTOR --- d
+Exited EVERY RULE --- d
+Exited TERM --- d
+Exited EVERY RULE --- d
+Exited EXPR --- d
+Exited EVERY RULE --- d
+Exited REL --- d
+Exited EVERY RULE --- d
+Exited EQUAL --- d
+Exited EVERY RULE --- d
+Exited ANDEXPR --- d
+Exited EVERY RULE --- d
+Exited ALLEXPR --- d
+Exited EVERY RULE --- d
+Visited TERMINAL --- ;
+Exited ASSIGN --- intd;
+Exited EVERY RULE --- intd;
+Exited STMT --- intd;
+Exited EVERY RULE --- intd;
+Exited STMTS --- intr;intdd;inta;intd;
+Exited EVERY RULE --- intr;intdd;inta;intd;
+Entered EVERY RULE --- r=a;
+Entered STMT --- r=a;
+Entered EVERY RULE --- r=a;
+Entered ASSIGN --- r=a;
+Visited TERMINAL --- r
+Visited TERMINAL --- =
+Entered EVERY RULE --- a
+Entered ALLEXPR --- a
+Entered EVERY RULE --- a
+Entered ANDEXPR --- a
+Entered EVERY RULE --- a
+Entered EQUAL --- a
+Entered EVERY RULE --- a
+Entered REL --- a
+Entered EVERY RULE --- a
+Entered EXPR --- a
+Entered EVERY RULE --- a
+Entered TERM --- a
+Entered EVERY RULE --- a
+Entered FACTOR --- a
+Visited TERMINAL --- a
+Exited FACTOR --- a
+Exited EVERY RULE --- a
+Exited TERM --- a
+Exited EVERY RULE --- a
+Exited EXPR --- a
+Exited EVERY RULE --- a
+Exited REL --- a
+Exited EVERY RULE --- a
+Exited EQUAL --- a
+Exited EVERY RULE --- a
+Exited ANDEXPR --- a
+Exited EVERY RULE --- a
+Exited ALLEXPR --- a
+Exited EVERY RULE --- a
+Visited TERMINAL --- ;
+Exited ASSIGN --- r=a;
+Exited EVERY RULE --- r=a;
+Exited STMT --- r=a;
+Exited EVERY RULE --- r=a;
+Exited STMTS --- intr;intdd;inta;intd;r=a;
+Exited EVERY RULE --- intr;intdd;inta;intd;r=a;
+Entered EVERY RULE --- dd=d;
+Entered STMT --- dd=d;
+Entered EVERY RULE --- dd=d;
+Entered ASSIGN --- dd=d;
+Visited TERMINAL --- dd
+Visited TERMINAL --- =
+Entered EVERY RULE --- d
+Entered ALLEXPR --- d
+Entered EVERY RULE --- d
+Entered ANDEXPR --- d
+Entered EVERY RULE --- d
+Entered EQUAL --- d
+Entered EVERY RULE --- d
+Entered REL --- d
+Entered EVERY RULE --- d
+Entered EXPR --- d
+Entered EVERY RULE --- d
+Entered TERM --- d
+Entered EVERY RULE --- d
+Entered FACTOR --- d
+Visited TERMINAL --- d
+Exited FACTOR --- d
+Exited EVERY RULE --- d
+Exited TERM --- d
+Exited EVERY RULE --- d
+Exited EXPR --- d
+Exited EVERY RULE --- d
+Exited REL --- d
+Exited EVERY RULE --- d
+Exited EQUAL --- d
+Exited EVERY RULE --- d
+Exited ANDEXPR --- d
+Exited EVERY RULE --- d
+Exited ALLEXPR --- d
+Exited EVERY RULE --- d
+Visited TERMINAL --- ;
+Exited ASSIGN --- dd=d;
+Exited EVERY RULE --- dd=d;
+Exited STMT --- dd=d;
+Exited EVERY RULE --- dd=d;
+Exited STMTS --- intr;intdd;inta;intd;r=a;dd=d;
+Exited EVERY RULE --- intr;intdd;inta;intd;r=a;dd=d;
+Entered EVERY RULE --- while(dd<=r){dd=2*dd;}
+Entered STMT --- while(dd<=r){dd=2*dd;}
+Visited TERMINAL --- while
+Visited TERMINAL --- (
+Entered EVERY RULE --- dd<=r
+Entered ALLEXPR --- dd<=r
+Entered EVERY RULE --- dd<=r
+Entered ANDEXPR --- dd<=r
+Entered EVERY RULE --- dd<=r
+Entered EQUAL --- dd<=r
+Entered EVERY RULE --- dd<=r
+Entered REL --- dd<=r
+Entered EVERY RULE --- dd
+Entered EXPR --- dd
+Entered EVERY RULE --- dd
+Entered TERM --- dd
+Entered EVERY RULE --- dd
+Entered FACTOR --- dd
+Visited TERMINAL --- dd
+Exited FACTOR --- dd
+Exited EVERY RULE --- dd
+Exited TERM --- dd
+Exited EVERY RULE --- dd
+Exited EXPR --- dd
+Exited EVERY RULE --- dd
+Visited TERMINAL --- <=
+Entered EVERY RULE --- r
+Entered EXPR --- r
+Entered EVERY RULE --- r
+Entered TERM --- r
+Entered EVERY RULE --- r
+Entered FACTOR --- r
+Visited TERMINAL --- r
+Exited FACTOR --- r
+Exited EVERY RULE --- r
+Exited TERM --- r
+Exited EVERY RULE --- r
+Exited EXPR --- r
+Exited EVERY RULE --- r
+Exited REL --- dd<=r
+Exited EVERY RULE --- dd<=r
+Exited EQUAL --- dd<=r
+Exited EVERY RULE --- dd<=r
+Exited ANDEXPR --- dd<=r
+Exited EVERY RULE --- dd<=r
+Exited ALLEXPR --- dd<=r
+Exited EVERY RULE --- dd<=r
+Visited TERMINAL --- )
+Entered EVERY RULE --- {dd=2*dd;}
+Entered STMT --- {dd=2*dd;}
+Entered EVERY RULE --- {dd=2*dd;}
+Entered BLOCK --- {dd=2*dd;}
+Visited TERMINAL --- {
+Entered EVERY RULE --- 
+Entered DECLS --- 
+Exited DECLS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- dd=2*dd;
+Entered STMTS --- dd=2*dd;
+Entered EVERY RULE --- 
+Entered STMTS --- 
+Exited STMTS --- 
+Exited EVERY RULE --- 
+Entered EVERY RULE --- dd=2*dd;
+Entered STMT --- dd=2*dd;
+Entered EVERY RULE --- dd=2*dd;
+Entered ASSIGN --- dd=2*dd;
+Visited TERMINAL --- dd
+Visited TERMINAL --- =
+Entered EVERY RULE --- 2*dd
+Entered ALLEXPR --- 2*dd
+Entered EVERY RULE --- 2*dd
+Entered ANDEXPR --- 2*dd
+Entered EVERY RULE --- 2*dd
+Entered EQUAL --- 2*dd
+Entered EVERY RULE --- 2*dd
+Entered REL --- 2*dd
+Entered EVERY RULE --- 2*dd
+Entered EXPR --- 2*dd
+Entered EVERY RULE --- 2*dd
+Entered TERM --- 2*dd
+Entered EVERY RULE --- 2
+Entered TERM --- 2
+Entered EVERY RULE --- 2
+Entered FACTOR --- 2
+Visited TERMINAL --- 2
+Exited FACTOR --- 2
+Exited EVERY RULE --- 2
+Exited TERM --- 2
+Exited EVERY RULE --- 2
+Visited TERMINAL --- *
+Entered EVERY RULE --- dd
+Entered FACTOR --- dd
+Visited TERMINAL --- dd
+Exited FACTOR --- dd
+Exited EVERY RULE --- dd
+Exited TERM --- 2*dd
+Exited EVERY RULE --- 2*dd
+Exited EXPR --- 2*dd
+Exited EVERY RULE --- 2*dd
+Exited REL --- 2*dd
+Exited EVERY RULE --- 2*dd
+Exited EQUAL --- 2*dd
+Exited EVERY RULE --- 2*dd
+Exited ANDEXPR --- 2*dd
+Exited EVERY RULE --- 2*dd
+Exited ALLEXPR --- 2*dd
+Exited EVERY RULE --- 2*dd
+Visited TERMINAL --- ;
+Exited ASSIGN --- dd=2*dd;
+Exited EVERY RULE --- dd=2*dd;
+Exited STMT --- dd=2*dd;
+Exited EVERY RULE --- dd=2*dd;
+Exited STMTS --- dd=2*dd;
+Exited EVERY RULE --- dd=2*dd;
+Visited TERMINAL --- }
+Exited BLOCK --- {dd=2*dd;}
+Exited EVERY RULE --- {dd=2*dd;}
+Exited STMT --- {dd=2*dd;}
+Exited EVERY RULE --- {dd=2*dd;}
+Exited STMT --- while(dd<=r){dd=2*dd;}
+Exited EVERY RULE --- while(dd<=r){dd=2*dd;}
+Exited STMTS --- intr;intdd;inta;intd;r=a;dd=d;while(dd<=r){dd=2*dd;}
+Exited EVERY RULE --- intr;intdd;inta;intd;r=a;dd=d;while(dd<=r){dd=2*dd;}
+Visited TERMINAL --- }
+Exited BLOCK --- {intr;intdd;inta;intd;r=a;dd=d;while(dd<=r){dd=2*dd;}}
+Exited EVERY RULE --- {intr;intdd;inta;intd;r=a;dd=d;while(dd<=r){dd=2*dd;}}
+Exited PROGRAM --- {intr;intdd;inta;intd;r=a;dd=d;while(dd<=r){dd=2*dd;}}
+Exited EVERY RULE --- {intr;intdd;inta;intd;r=a;dd=d;while(dd<=r){dd=2*dd;}}
+Tree has been walked by walker
+Listening has concluded ############################################################

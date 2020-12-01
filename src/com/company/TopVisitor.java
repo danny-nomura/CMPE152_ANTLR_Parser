@@ -2,105 +2,85 @@ package com.company;
 
 import org.antlr.v4.runtime.tree.*;
 
-public class TopVisitor<T> implements MyGrammarVisitor<T> {
+public class TopVisitor<T> extends MyGrammarBaseVisitor<T> {
 
-    @Override
     public T visitProgram(MyGrammarParser.ProgramContext ctx) {
-        return null;
+        System.out.println("Visited PROGRAM --- " + ctx.getText());
+        return visitChildren(ctx);
     }
 
-    @Override
     public T visitBlock(MyGrammarParser.BlockContext ctx) {
-        return null;
+        System.out.println("Visited BLOCK --- " + ctx.getText());
+        return visitChildren(ctx);
     }
 
-    @Override
     public T visitDecls(MyGrammarParser.DeclsContext ctx) {
-        return null;
+        System.out.println("Visited DECLS --- " + ctx.getText());
+        return visitChildren(ctx);
     }
 
-    @Override
     public T visitDecl(MyGrammarParser.DeclContext ctx) {
-        return null;
+        System.out.println("Visited DECL --- " + ctx.getText());
+        return visitChildren(ctx);
     }
 
-    @Override
     public T visitType(MyGrammarParser.TypeContext ctx) {
-        return null;
+        System.out.println("Visited TYPE --- " + ctx.getText());
+        return visitChildren(ctx);
     }
 
-    @Override
     public T visitStmts(MyGrammarParser.StmtsContext ctx) {
-        return null;
+        System.out.println("Visited STMTS --- " + ctx.getText());
+        return visitChildren(ctx);
     }
 
-    @Override
     public T visitAssign(MyGrammarParser.AssignContext ctx) {
-        return null;
+        System.out.println("Visited ASSIGN --- " + ctx.getText());
+        return visitChildren(ctx);
     }
 
-    @Override
     public T visitStmt(MyGrammarParser.StmtContext ctx) {
-        return null;
+        System.out.println("Visited STMT --- " + ctx.getText());
+        return visitChildren(ctx);
     }
 
-    @Override
     public T visitAllexpr(MyGrammarParser.AllexprContext ctx) {
-        return null;
+        System.out.println("Visited ALLEXPR --- " + ctx.getText());
+        return visitChildren(ctx);
     }
 
-    @Override
     public T visitAndexpr(MyGrammarParser.AndexprContext ctx) {
-        return null;
+        System.out.println("Visited ANDEXPR --- " + ctx.getText());
+        return visitChildren(ctx);
     }
 
-    @Override
     public T visitEqual(MyGrammarParser.EqualContext ctx) {
-        return null;
+        System.out.println("Visited EQUAL --- " + ctx.getText());
+        return visitChildren(ctx);
     }
 
-    @Override
     public T visitRel(MyGrammarParser.RelContext ctx) {
-        return null;
+        System.out.println("Visited REL --- " + ctx.getText());
+        return visitChildren(ctx);
     }
 
-    @Override
     public T visitExpr(MyGrammarParser.ExprContext ctx) {
-        return null;
+        System.out.println("Visited EXPR --- " + ctx.getText());
+        return visitChildren(ctx);
     }
 
-    @Override
     public T visitTerm(MyGrammarParser.TermContext ctx) {
-        return null;
+        System.out.println("Visited TERM --- " + ctx.getText());
+        return visitChildren(ctx);
     }
 
-    @Override
     public T visitIncdecexpr(MyGrammarParser.IncdecexprContext ctx) {
-        return null;
+        System.out.println("Visited INCDECEXPR --- " + ctx.getText());
+        return visitChildren(ctx);
     }
 
-    @Override
     public T visitFactor(MyGrammarParser.FactorContext ctx) {
-        return null;
-    }
-
-    @Override
-    public T visit(ParseTree parseTree) {
-        return null;
-    }
-
-    @Override
-    public T visitChildren(RuleNode ruleNode) {
-        return null;
-    }
-
-    @Override
-    public T visitTerminal(TerminalNode terminalNode) {
-        return null;
-    }
-
-    @Override
-    public T visitErrorNode(ErrorNode errorNode) {
-        return null;
+        System.out.println("Visited FACTOR --- " + ctx.getText());
+        return visitChildren(ctx);
     }
 }

@@ -12,7 +12,7 @@ public class TopListener extends MyGrammarBaseListener{
 
     @Override
     public void exitProgram(MyGrammarParser.ProgramContext ctx) {
-
+        System.out.println("Exited PROGRAM --- " + ctx.getText());
     }
 
     @Override
@@ -21,7 +21,9 @@ public class TopListener extends MyGrammarBaseListener{
     }
 
     @Override
-    public void exitBlock(MyGrammarParser.BlockContext ctx) { }
+    public void exitBlock(MyGrammarParser.BlockContext ctx) {
+        System.out.println("Exited BLOCK --- " + ctx.getText());
+    }
 
     @Override
     public void enterDecls(MyGrammarParser.DeclsContext ctx) {
@@ -29,7 +31,9 @@ public class TopListener extends MyGrammarBaseListener{
     }
 
     @Override
-    public void exitDecls(MyGrammarParser.DeclsContext ctx) { }
+    public void exitDecls(MyGrammarParser.DeclsContext ctx) {
+        System.out.println("Exited DECLS --- " + ctx.getText());
+    }
 
     @Override
     public void enterDecl(MyGrammarParser.DeclContext ctx) {
@@ -37,7 +41,9 @@ public class TopListener extends MyGrammarBaseListener{
     }
 
     @Override
-    public void exitDecl(MyGrammarParser.DeclContext ctx) { }
+    public void exitDecl(MyGrammarParser.DeclContext ctx) {
+        System.out.println("Exited DECL --- " + ctx.getText());
+    }
 
     @Override
     public void enterType(MyGrammarParser.TypeContext ctx) {
@@ -45,7 +51,9 @@ public class TopListener extends MyGrammarBaseListener{
     }
 
     @Override
-    public void exitType(MyGrammarParser.TypeContext ctx) { }
+    public void exitType(MyGrammarParser.TypeContext ctx) {
+        System.out.println("Exited TYPE --- " + ctx.getText());
+    }
 
     @Override
     public void enterStmts(MyGrammarParser.StmtsContext ctx) {
@@ -53,7 +61,9 @@ public class TopListener extends MyGrammarBaseListener{
     }
 
     @Override
-    public void exitStmts(MyGrammarParser.StmtsContext ctx) { }
+    public void exitStmts(MyGrammarParser.StmtsContext ctx) {
+        System.out.println("Exited STMTS --- " + ctx.getText());
+    }
 
     @Override
     public void enterAssign(MyGrammarParser.AssignContext ctx) {
@@ -61,7 +71,9 @@ public class TopListener extends MyGrammarBaseListener{
     }
 
     @Override
-    public void exitAssign(MyGrammarParser.AssignContext ctx) { }
+    public void exitAssign(MyGrammarParser.AssignContext ctx) {
+        System.out.println("Exited ASSIGN --- " + ctx.getText());
+    }
 
     @Override
     public void enterStmt(MyGrammarParser.StmtContext ctx) {
@@ -69,7 +81,9 @@ public class TopListener extends MyGrammarBaseListener{
     }
 
     @Override
-    public void exitStmt(MyGrammarParser.StmtContext ctx) { }
+    public void exitStmt(MyGrammarParser.StmtContext ctx) {
+        System.out.println("Exited STMT --- " + ctx.getText());
+    }
 
     @Override
     public void enterAllexpr(MyGrammarParser.AllexprContext ctx) {
@@ -77,7 +91,9 @@ public class TopListener extends MyGrammarBaseListener{
     }
 
     @Override
-    public void exitAllexpr(MyGrammarParser.AllexprContext ctx) { }
+    public void exitAllexpr(MyGrammarParser.AllexprContext ctx) {
+        System.out.println("Exited ALLEXPR --- " + ctx.getText());
+    }
 
     @Override
     public void enterAndexpr(MyGrammarParser.AndexprContext ctx) {
@@ -85,7 +101,9 @@ public class TopListener extends MyGrammarBaseListener{
     }
 
     @Override
-    public void exitAndexpr(MyGrammarParser.AndexprContext ctx) { }
+    public void exitAndexpr(MyGrammarParser.AndexprContext ctx) {
+        System.out.println("Exited ANDEXPR --- " + ctx.getText());
+    }
 
     @Override
     public void enterEqual(MyGrammarParser.EqualContext ctx) {
@@ -93,7 +111,9 @@ public class TopListener extends MyGrammarBaseListener{
     }
 
     @Override
-    public void exitEqual(MyGrammarParser.EqualContext ctx) { }
+    public void exitEqual(MyGrammarParser.EqualContext ctx) {
+        System.out.println("Exited EQUAL --- " + ctx.getText());
+    }
 
     @Override
     public void enterRel(MyGrammarParser.RelContext ctx) {
@@ -101,7 +121,9 @@ public class TopListener extends MyGrammarBaseListener{
     }
 
     @Override
-    public void exitRel(MyGrammarParser.RelContext ctx) { }
+    public void exitRel(MyGrammarParser.RelContext ctx) {
+        System.out.println("Exited REL --- " + ctx.getText());
+    }
 
     @Override
     public void enterExpr(MyGrammarParser.ExprContext ctx) {
@@ -109,7 +131,9 @@ public class TopListener extends MyGrammarBaseListener{
     }
 
     @Override
-    public void exitExpr(MyGrammarParser.ExprContext ctx) { }
+    public void exitExpr(MyGrammarParser.ExprContext ctx) {
+        System.out.println("Exited EXPR --- " + ctx.getText());
+    }
 
     @Override
     public void enterTerm(MyGrammarParser.TermContext ctx) {
@@ -117,7 +141,9 @@ public class TopListener extends MyGrammarBaseListener{
     }
 
     @Override
-    public void exitTerm(MyGrammarParser.TermContext ctx) { }
+    public void exitTerm(MyGrammarParser.TermContext ctx) {
+        System.out.println("Exited TERM --- " + ctx.getText());
+    }
 
     @Override
     public void enterIncdecexpr(MyGrammarParser.IncdecexprContext ctx) {
@@ -125,7 +151,9 @@ public class TopListener extends MyGrammarBaseListener{
     }
 
     @Override
-    public void exitIncdecexpr(MyGrammarParser.IncdecexprContext ctx) { }
+    public void exitIncdecexpr(MyGrammarParser.IncdecexprContext ctx) {
+        System.out.println("Exited INCDECEXPR --- " + ctx.getText());
+    }
 
     @Override
     public void enterFactor(MyGrammarParser.FactorContext ctx) {
@@ -133,7 +161,9 @@ public class TopListener extends MyGrammarBaseListener{
     }
 
     @Override
-    public void exitFactor(MyGrammarParser.FactorContext ctx) { }
+    public void exitFactor(MyGrammarParser.FactorContext ctx) {
+        System.out.println("Exited FACTOR --- " + ctx.getText());
+    }
 
     @Override
     public void enterEveryRule(ParserRuleContext ctx) {
@@ -141,7 +171,9 @@ public class TopListener extends MyGrammarBaseListener{
     }
 
     @Override
-    public void exitEveryRule(ParserRuleContext ctx) { }
+    public void exitEveryRule(ParserRuleContext ctx) {
+        System.out.println("Exited EVERY RULE --- " + ctx.getText());
+    }
 
     @Override
     public void visitTerminal(TerminalNode node) {
